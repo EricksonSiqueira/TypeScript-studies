@@ -7,3 +7,5 @@ type Pessoa = {
 }
 
 type CorRGB = 'Vermelho' | 'Verde' | 'Azul'
+type CorCMYK = 'Ciano' | 'Magenta' | 'Amarelo' | 'Perto'
+type CorPreferida = CorRGB | CorCMYK;
