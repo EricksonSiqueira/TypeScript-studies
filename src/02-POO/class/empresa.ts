@@ -1,5 +1,5 @@
 export class Empresa {
-  public readonly nome: string;
+  readonly nome: string; // if you dont put anything will be public by default
   private readonly colaboradores: Colaborador[] = [];
   protected readonly cnpj: string;
 
