@@ -15,6 +15,10 @@ export class Empresa {
   showColaborador(): void {
     this.colaboradores.forEach((colaborador) => console.log(colaborador));
   }
+
+  public getCnpj(): string {
+    return this.cnpj;
+  }
 }
 
 export class Colaborador {
@@ -29,3 +33,4 @@ empresa1.addColaborador(colaboradores1);
 empresa1.addColaborador(colaboradores2);
 empresa1.addColaborador(colaboradores3);
 empresa1.showColaborador();
+console.log(empresa1.getCnpj());
